@@ -24,9 +24,13 @@ To investigate this question, this project compares three expected return estima
 - Minimum Variance
 - Maximum Sharpe Ratio
 
+## Result
+The results of the study show that the portfolio allocation results are indeed significantly affected by the choice of expected return estimation method. We found that, within the given sample period, the expected return for NVIDIA obtained using the Historical Mean method is significantly higher than that obtained using CAPM. The difference for Google is also very large. The reason is actually quite obvious. The 2021–2025 sample period included a series of relatively unique developments in the technology industry, especially the rapid development of generative AI, which created a very special growth environment for companies such as NVIDIA. Therefore, under different historical environments, the choice of different return estimation methods may be important, and this may have a significant impact on our portfolio.
+
 
 ## Limitations
 
 This study only examines a selected group of U.S. technology companies, and the findings may not be representative of stocks in other industries.
 For industries with more mature and stable business models, the three expected return estimation methods may produce relatively similar estimates and therefore lead to less significant differences in portfolio allocation.
+
 This study is intended for academic and research purposes only and does not constitute investment advice.
